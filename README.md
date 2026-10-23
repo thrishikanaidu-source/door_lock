@@ -56,3 +56,7 @@ The testbench (`tb_door_lock.v`, gate-level version `tb_gls.v`) runs 18 self-che
 ## Schematics
 ![RTL schematic](images/rtl_schematic.svg)
 ![Synthesized netlist (run3, 285 cells)](images/netlist_run3.svg)
+
+## Schematics
+![RTL schematic](images/rtl_schematic.svg)
+![Synthesized netlist (run3, 285 cells)](images/netlist_run3.svg)
