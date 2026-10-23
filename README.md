@@ -32,3 +32,9 @@ RTL simulation (Icarus Verilog) and gate-level simulation of the synthesized net
 ## Limitations
 - Only one SPEF was used; this install has no RC-extraction rules for per-corner parasitics.
 - SDF-annotated simulation and a wire-delay sensitivity check were not performed.
+
+## Reports
+- `openlane_run3/reports/` per-stage reports: synthesis, floorplan, placement, cts, routing (includes antenna), magic (DRC), lvs, klayout, cvc, manufacturability
+- `openlane_run3/logs/` per-stage flow logs
+- `openlane_run3/sta/` STA reports for all 18 libraries
+- `comparison/` run1 (AREA 0, 10 ns) and run2 (DELAY 0, 10 ns) results
