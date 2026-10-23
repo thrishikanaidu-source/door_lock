@@ -53,8 +53,10 @@ The testbench (`tb_door_lock.v`, gate-level version `tb_gls.v`) runs 18 self-che
 - Snapshot: `images/synth_run3.svg`
 
 ## Waveforms
-![RTL simulation](images/waveform_rtl.png)
-![Gate-level simulation (run3)](images/waveform_gls.png)
+<img width="882" height="617" alt="image" src="https://github.com/user-attachments/assets/c6cb6fc4-0712-41fd-855a-bece9825b082" />
+<img width="887" height="625" alt="image" src="https://github.com/user-attachments/assets/dcf75e37-d34d-44f7-bf15-c6f75edfc6a3" />
+
+
 
 ## Schematics
 ![RTL schematic](images/rtl_schematic.svg)
