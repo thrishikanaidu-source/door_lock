@@ -1,0 +1,25 @@
+
+20. Printing statistics.
+
+=== door_lock ===
+
+   Number of wires:                300
+   Number of wire bits:            359
+   Number of public wires:          16
+   Number of public wire bits:      60
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                350
+     $_ANDNOT_                      67
+     $_AND_                          3
+     $_MUX_                         83
+     $_NAND_                        12
+     $_NOR_                          2
+     $_NOT_                          2
+     $_ORNOT_                       19
+     $_OR_                          95
+     $_XNOR_                         1
+     $_XOR_                         15
+     sky130_fd_sc_hd__dfxtp_2       51
+

@@ -1,0 +1,6 @@
+Using Techfile: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+Using layout file: /openLANE_flow/designs/door_lock/runs/run3/results/klayout/door_lock.gds
+[INFO] Reading tech file: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/klayout/sky130A.lyt
+[INFO] Reading Layout file: /openLANE_flow/designs/door_lock/runs/run3/results/klayout/door_lock.gds
+[INFO] Writing out PNG screenshot '/openLANE_flow/designs/door_lock/runs/run3/results/klayout/door_lock.gds.png'
+Done
