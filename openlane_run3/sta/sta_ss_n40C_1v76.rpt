@@ -1,0 +1,99 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Warning: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_n40C_1v76.lib line 31, default_operating_condition ss_n40C_1v76 not found.
+Notice 0: Reading LEF file:  results/cts/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 440 library cells
+Notice 0: Finished LEF file:  results/cts/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: results/routing/door_lock.def
+Notice 0: Design: door_lock
+Notice 0:     Created 19 pins.
+Notice 0:     Created 1300 components and 5906 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 307 nets and 964 connections.
+Notice 0: Finished DEF file: results/routing/door_lock.def
+==== CORNER ss_n40C_1v76 ====
+Startpoint: _501_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _514_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.13    0.13 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.13    0.26 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.37    0.63 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.00    0.63 ^ _501_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.72    1.35 ^ _501_/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.14    1.49 v _264_/Y (sky130_fd_sc_hd__nand2_4)
+   0.24    1.73 ^ _266_/Y (sky130_fd_sc_hd__nor2_8)
+   0.15    1.88 v _291_/Y (sky130_fd_sc_hd__nand3_2)
+   0.37    2.25 ^ _296_/Y (sky130_fd_sc_hd__o21bai_2)
+   0.20    2.45 v _299_/Y (sky130_fd_sc_hd__nand2_1)
+   0.13    2.58 ^ _303_/Y (sky130_fd_sc_hd__nand3_1)
+   0.09    2.67 v _306_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.00    2.67 v _514_/D (sky130_fd_sc_hd__dfxtp_2)
+           2.67   data arrival time
+
+  12.00   12.00   clock clk (rise edge)
+   0.00   12.00   clock source latency
+   0.00   12.00 ^ clk (in)
+   0.13   12.13 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.13   12.26 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.11   12.38 ^ clkbuf_2_2_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.00   12.38 ^ _514_/CLK (sky130_fd_sc_hd__dfxtp_2)
+   0.00   12.38   clock reconvergence pessimism
+  -0.23   12.15   library setup time
+          12.15   data required time
+---------------------------------------------------------
+          12.15   data required time
+          -2.67   data arrival time
+---------------------------------------------------------
+           9.47   slack (MET)
+
+
+Startpoint: _484_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _470_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.13    0.13 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.09    0.22 ^ clkbuf_1_0_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.12    0.34 ^ clkbuf_2_1_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.00    0.34 ^ _484_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.49    0.83 v _484_/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.12    0.95 ^ _434_/Y (sky130_fd_sc_hd__nand3b_2)
+   0.05    1.01 v _463_/Y (sky130_fd_sc_hd__nor2_1)
+   0.00    1.01 v _470_/D (sky130_fd_sc_hd__dfxtp_1)
+           1.01   data arrival time
+
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk (in)
+   0.13    0.13 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+   0.13    0.26 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.37    0.63 ^ clkbuf_2_3_0_clk/X (sky130_fd_sc_hd__clkbuf_1)
+   0.00    0.63 ^ _470_/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.00    0.63   clock reconvergence pessimism
+   0.04    0.67   library hold time
+           0.67   data required time
+---------------------------------------------------------
+           0.67   data required time
+          -1.01   data arrival time
+---------------------------------------------------------
+           0.34   slack (MET)
+
+
+wns 0.00
+tns 0.00

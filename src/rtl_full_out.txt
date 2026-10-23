@@ -1,0 +1,21 @@
+VCD info: dumpfile door_lock.vcd opened for output.
+PASS: T1a outputs low after reset
+PASS: T1b correct code unlocks
+PASS: T1c no alarm on correct code
+PASS: T1d relocks after unlock timer
+PASS: T2a wrong digit 1 rejected
+PASS: T2b wrong digit 2 rejected
+PASS: T2c wrong digit 3 rejected
+PASS: T2d wrong digit 4 rejected
+PASS: T3a unlock after 2 wrong + 1 correct
+PASS: T3b counter was reset by correct code
+PASS: T4a alarm after 3 wrong codes
+PASS: T4b keys ignored during lockout
+PASS: T4c still locked out
+PASS: T4d lockout ends after timer
+PASS: T4e correct code works after lockout
+PASS: T5 held key counted once
+PASS: T6a reset mid-entry clears digits
+PASS: T6b works normally after reset
+
+ALL TESTS PASSED

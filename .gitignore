@@ -1,0 +1,6 @@
+*.vcd
+*_sim
+*.vvp
+lib_pre*.v
+lib_used*.v
+*.xor.gds
