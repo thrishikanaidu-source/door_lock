@@ -29,6 +29,9 @@ An earlier AREA 0 run at 10 ns failed setup at low-voltage corners, so the final
 ## Design
 `door_lock` is a parameterized keypad door-lock FSM. Defaults: code 1234 (4 digits), unlock time 5000 cycles, lockout 30000 cycles, lockout after 3 wrong codes (`CODE`, `UNLOCK_CYCLES`, `LOCKOUT_CYCLES`, `MAX_ATTEMPTS`).
 
+## Design
+`door_lock` is a parameterized keypad door-lock FSM. Defaults: code 1234 (4 digits), unlock time 5000 cycles, lockout 30000 cycles, lockout after 3 wrong codes (`CODE`, `UNLOCK_CYCLES`, `LOCKOUT_CYCLES`, `MAX_ATTEMPTS`).
+
 ## Verification
 The testbench (`tb_door_lock.v`, gate-level version `tb_gls.v`) runs 18 self-checking tests: correct code unlocks with no alarm, relock after the unlock timer, each of the 4 digits rejected when wrong, unlock after 2 wrong codes plus a correct one, attempt counter reset by a correct code, alarm after 3 wrong codes, keys ignored during lockout, lockout ends after its timer, a held key counted once, and reset mid-entry. All 18 pass in RTL simulation (Icarus Verilog) and in gate-level simulation on the final run3 synthesized netlist (285 cells, DELAY 0, 12 ns). The two outputs match exactly (`diff` clean). Timing for run3 was checked with STA across all 18 libraries.
 
