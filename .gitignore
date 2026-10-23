@@ -1,6 +1,7 @@
-*.vcd
 *_sim
 *.vvp
 lib_pre*.v
 lib_used*.v
 *.xor.gds
+src/*.vcd
+deliverables/gls_full.vcd
